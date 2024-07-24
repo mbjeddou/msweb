@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shared" />
+        <module name="eruka" />
+        <module name="voiture" />
+        <module name="config" />
+        <module name="gateway" />
+        <module name="Remorquage" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="product" target="17" />
+      <module name="Stok" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Remorquage" options="-parameters" />
+      <module name="Stok" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="eruka" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="shared" options="-parameters" />
+      <module name="voiture" options="-parameters" />
+    </option>
+  </component>
+</project>
